@@ -1,0 +1,44 @@
+* {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+body {
+    background-color: lightslategray;
+    
+    color: white;
+    height: 80vh;
+   
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+header {
+    background-color: rgb(147, 39, 89);
+    height: 10vh;
+    width: 80vw;
+}
+main {
+    background-color: mediumspringgreen;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10%;
+    height: 50vh;
+    width: 80vw;
+}
+article {
+    background-color: hotpink;
+    width: 80%;
+}
+aside {
+    background-color: steelblue;
+    height: 10vh;
+    width: 80vw;
+}
+footer {
+    background-color: orange;
+    height: 10vh;
+    width: 80vw;
+}
