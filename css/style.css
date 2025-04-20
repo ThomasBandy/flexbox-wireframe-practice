@@ -1,44 +1,65 @@
 * {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 body {
-    background-color: lightslategray;
-    
+    background-color: rgb(172, 180, 186);
     color: white;
-    height: 80vh;
-   
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 50px;
+
 }
 header {
-    background-color: rgb(147, 39, 89);
+    background-color: rgb(164, 43, 99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 10vh;
     width: 80vw;
+    margin: 1%;
 }
 main {
-    background-color: mediumspringgreen;
+    background-color: rgb(3, 184, 127);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    margin: 10%;
     height: 50vh;
     width: 80vw;
+    justify-content: space-around;
+    margin: 1%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 article {
-    background-color: hotpink;
-    width: 80%;
+    background-color: rgb(251, 33, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 27%;
+    width: 90%;
+    font-size: 30px;
+    margin: 2%;
 }
 aside {
-    background-color: steelblue;
+    background-color: rgb(33, 101, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 10vh;
     width: 80vw;
+    margin: 1%;
 }
 footer {
-    background-color: orange;
+    background-color: rgb(255, 115, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 10vh;
     width: 80vw;
+    margin: 1%;   
 }
